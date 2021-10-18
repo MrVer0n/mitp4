@@ -2,37 +2,169 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Rect-active{
+  background-color: orange;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.Rect1 {
+position: absolute;
+width: 257px;
+height: 164px;
+left: calc(50% - 257px/2 - 805.5px);
+top: calc(56% - 164px/2 - 432px);
+
+border: 4px solid #312d2d;
+box-sizing: border-box;
+}
+.Rect1:hover, .Rect2:hover, .Rect3:hover, .Rect4:hover, .Rect4:hover, .Rect5:hover, .Rect6:hover, .Rect7:hover, .Rect8:hover, .Rect9:hover, .Rect10:hover, .Rect11:hover, .Rect12:hover, .Rect13:hover{
+  background-color: orange;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.Rect2 {
+  position: absolute;
+  width: 1050px;
+  height: 164px;
+  left: calc(50% - 1050px/2);
+  top: calc(56% - 164px/2 - 432px);
+  
+  border: 4px solid #312d2d;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Rect3 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 + 805.5px);
+  top: calc(56% - 164px/2 - 432px);
+  
+  border: 4px solid #312d2d;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Rect4 {
+  position: absolute;
+  width: 257px;
+  height: 428px;
+  left: calc(50% - 257px/2 - 805.5px);
+  top: calc(56% - 428px/2 - 36px);
+  
+  border: 4px solid #312d2d;
+  box-sizing: border-box;
+}
+
+
+.Rect5 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 - 396.5px);
+  top: calc(56% - 164px/2 - 168px);
+
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
+}
+
+
+.Rect6 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 + 396.5px);
+  top: calc(56% - 164px/2 - 168px);
+  
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
+}
+
+
+.Rect7 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 + 805.5px);
+  top: calc(56% - 164px/2 - 168px);
+  
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
+}
+
+
+.Rect8 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 - 396.5px);
+  top: calc(56% - 164px/2 + 96px);
+  
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
+}
+
+
+
+.Rect9 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 - 0.5px);
+  top: calc(56% - 164px/2 + 96px);
+  
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
+}
+
+
+
+.Rect10 {
+  position: absolute;
+  width: 666px;
+  height: 164px;
+  left: calc(50% - 666px/2 + 601px);
+  top: calc(56% - 164px/2 + 96px);
+  
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
+}
+
+
+.Rect11 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 - 805.5px);
+  top: calc(46% - 164px/2 + 432px);
+  
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
+}
+
+
+
+.Rect12 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 - 396.5px);
+  top: calc(46% - 164px/2 + 432px);
+  
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
+}
+
+
+.Rect13 {
+  position: absolute;
+  width: 257px;
+  height: 164px;
+  left: calc(50% - 257px/2 + 805.5px);
+  top: calc(46% - 164px/2 + 432px);
+  
+  border: 4px solid #312D2D;
+  box-sizing: border-box;
 }
