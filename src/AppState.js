@@ -1,5 +1,6 @@
 class AppState {
 idBox = 1
+chek = false
 isContainerActive = [false, true, false, false, false, false, false, false, false, false, false, false, false, false]
 mapBox = [
     {
@@ -121,12 +122,25 @@ mapBox = [
     },
   ]
 
+  
+setTChek(){
+  this.chek = true
+}
+setFChek(){
+  this.chek = false
+}
+getChek(){
+  return this.chek
+}
+
+
 setIdBox(x){
     this.idBox = x
 }
 getIdBox(){
     return this.idBox
 }
+
 
 setIsContainerActive(x){
     this.isContainerActive = x
@@ -135,9 +149,11 @@ getIsContainerActive(){
     return this.isContainerActive
 }
 
+
 getMapBoxState(){
     return this.mapBox
 }
+
 
 }
 export default new AppState()
